@@ -17,15 +17,19 @@ class TTSRequest(BaseModel):
 
 @router.post("/tts", dependencies=[Depends(verify_api_key)], tags=["TTS"])
 async def generate_tts(request: Request, tts_req: TTSRequest, background_tasks: BackgroundTasks):
+    from services.voice_mapper import voice_mapper
     start_time = time.time()
     client_ip = request.client.host if request.client else "unknown"
     provider = tts_service.get_provider()
     
     try:
+        # Map alias if necessary
+        final_voice = voice_mapper.map_voice(tts_req.voice)
+        
         # Generate audio file
         file_path = provider.generate_audio(
             text=tts_req.text,
-            voice=tts_req.voice,
+            voice=final_voice,
             speed=tts_req.speed
         )
         

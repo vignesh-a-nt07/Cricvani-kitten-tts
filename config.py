@@ -11,6 +11,14 @@ class Settings(BaseSettings):
     log_level: str = "INFO"
     output_directory: str = "generated"
 
+    voice_alias_male_1: str = "expr-voice-2-m"
+    voice_alias_female_1: str = "expr-voice-2-f"
+    voice_alias_male_2: str = "expr-voice-3-m"
+    voice_alias_female_2: str = "expr-voice-3-f"
+    voice_alias_male_3: str = "expr-voice-4-m"
+    voice_alias_female_3: str = "expr-voice-4-f"
+    voice_alias_default: str = "expr-voice-2-m"
+
     class Config:
         env_file = ".env"
         env_file_encoding = "utf-8"

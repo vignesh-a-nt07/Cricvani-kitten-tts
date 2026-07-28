@@ -6,7 +6,9 @@ router = APIRouter()
 
 @router.get("/voices", dependencies=[Depends(verify_api_key)], tags=["Voices"])
 async def get_voices():
+    from services.voice_mapper import voice_mapper
     provider = tts_service.get_provider()
     return {
-        "voices": provider.get_supported_voices()
+        "aliases": voice_mapper.get_aliases(),
+        "voices": provider.get_supported_voices() if provider else []
     }

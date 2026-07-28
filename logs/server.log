@@ -34,3 +34,54 @@
 2026-07-28 11:45:30,331 - kitten_tts_server - INFO - Startup complete. Ready to serve requests.
 2026-07-28 11:45:45,689 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'Virat Kohli drives t...'
 2026-07-28 11:45:47,162 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: expr-voice-2-m | Chars: 43 | Time: 1.473s
+2026-07-28 12:09:48,051 - kitten_tts_server - INFO - Loading Kitten TTS model from models/kitten-tts.onnx...
+2026-07-28 12:09:49,445 - kitten_tts_server - INFO - Successfully loaded Kitten TTS model.
+2026-07-28 12:09:49,469 - kitten_tts_server - INFO - Starting CricVani Kitten TTS Server on 0.0.0.0:8001
+2026-07-28 12:09:49,469 - kitten_tts_server - INFO - Initializing TTS Service and loading model...
+2026-07-28 12:09:49,469 - kitten_tts_server - INFO - Startup complete. Ready to serve requests.
+2026-07-28 12:11:33,190 - kitten_tts_server - WARNING - TTS Validation Error | IP: 127.0.0.1 | Voice: male_1 | Error: Voice 'male_1' not found.
+2026-07-28 12:11:34,815 - kitten_tts_server - WARNING - TTS Validation Error | IP: 127.0.0.1 | Voice: male_1 | Error: Voice 'male_1' not found.
+2026-07-28 12:11:36,176 - kitten_tts_server - WARNING - TTS Validation Error | IP: 127.0.0.1 | Voice: male_1 | Error: Voice 'male_1' not found.
+2026-07-28 12:11:38,534 - kitten_tts_server - WARNING - TTS Validation Error | IP: 127.0.0.1 | Voice: male_1 | Error: Voice 'male_1' not found.
+2026-07-28 12:11:39,349 - kitten_tts_server - WARNING - TTS Validation Error | IP: 127.0.0.1 | Voice: male_1 | Error: Voice 'male_1' not found.
+2026-07-28 12:11:40,679 - kitten_tts_server - WARNING - TTS Validation Error | IP: 127.0.0.1 | Voice: male_1 | Error: Voice 'male_1' not found.
+2026-07-28 12:11:42,887 - kitten_tts_server - WARNING - TTS Validation Error | IP: 127.0.0.1 | Voice: male_1 | Error: Voice 'male_1' not found.
+2026-07-28 12:11:43,604 - kitten_tts_server - WARNING - TTS Validation Error | IP: 127.0.0.1 | Voice: male_1 | Error: Voice 'male_1' not found.
+2026-07-28 12:11:44,801 - kitten_tts_server - WARNING - TTS Validation Error | IP: 127.0.0.1 | Voice: male_1 | Error: Voice 'male_1' not found.
+2026-07-28 12:11:46,991 - kitten_tts_server - WARNING - TTS Validation Error | IP: 127.0.0.1 | Voice: male_1 | Error: Voice 'male_1' not found.
+2026-07-28 12:11:47,689 - kitten_tts_server - WARNING - TTS Validation Error | IP: 127.0.0.1 | Voice: male_1 | Error: Voice 'male_1' not found.
+2026-07-28 12:11:48,877 - kitten_tts_server - WARNING - TTS Validation Error | IP: 127.0.0.1 | Voice: male_1 | Error: Voice 'male_1' not found.
+2026-07-28 12:27:25,973 - kitten_tts_server - INFO - Loading Kitten TTS model from models/kitten-tts.onnx...
+2026-07-28 12:27:27,397 - kitten_tts_server - INFO - Successfully loaded Kitten TTS model.
+2026-07-28 12:27:27,427 - kitten_tts_server - INFO - Starting CricVani Kitten TTS Server on 0.0.0.0:8001
+2026-07-28 12:27:27,427 - kitten_tts_server - INFO - Initializing TTS Service and loading model...
+2026-07-28 12:27:27,427 - kitten_tts_server - INFO - Startup complete. Ready to serve requests.
+2026-07-28 12:27:41,529 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 12:27:41,529 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'Virat Kohli drives b...'
+2026-07-28 12:27:42,696 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 46 | Time: 1.167s
+2026-07-28 12:39:26,163 - kitten_tts_server - INFO - Loading Kitten TTS model from models/kitten-tts.onnx...
+2026-07-28 12:39:27,565 - kitten_tts_server - INFO - Successfully loaded Kitten TTS model.
+2026-07-28 12:39:27,590 - kitten_tts_server - INFO - Starting CricVani Kitten TTS Server on 0.0.0.0:8001
+2026-07-28 12:39:27,590 - kitten_tts_server - INFO - Initializing TTS Service and loading model...
+2026-07-28 12:39:27,590 - kitten_tts_server - INFO - Startup complete. Ready to serve requests.
+2026-07-28 12:42:16,399 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 12:42:16,402 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'After that boundary,...'
+2026-07-28 12:42:22,284 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 190 | Time: 5.885s
+2026-07-28 12:42:22,335 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 12:42:22,335 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'Umair Tariq's on the...'
+2026-07-28 12:42:25,796 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 134 | Time: 3.461s
+2026-07-28 12:42:25,887 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 12:42:25,887 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'Idan Levy's got a ch...'
+2026-07-28 12:42:29,151 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 116 | Time: 3.265s
+2026-07-28 12:42:29,194 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 12:42:29,195 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'Idan Levy's off the ...'
+2026-07-28 12:42:31,834 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 102 | Time: 2.639s
+2026-07-28 12:42:31,855 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 12:42:31,855 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'Back comes Karanbir ...'
+2026-07-28 12:42:37,249 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 169 | Time: 5.394s
+2026-07-28 12:43:27,446 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 12:43:27,446 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'They're running hard...'
+2026-07-28 12:43:30,227 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 127 | Time: 2.780s
+2026-07-28 12:43:30,244 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 12:43:30,244 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'Oh no, not again! Ka...'
+2026-07-28 12:43:32,458 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 84 | Time: 2.214s
