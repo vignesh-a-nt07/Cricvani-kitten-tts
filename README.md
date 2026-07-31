@@ -38,6 +38,14 @@ source venv/bin/activate
 3. Run the server:
    ```bash
    python -m uvicorn app:app --host 0.0.0.0 --port 8001
+
+   or 
+   
+   make run
+
+   or 
+
+   python -m uvicorn app:app --host 0.0.0.0 --port 8001 --reload
    ```
 
 ### Docker
