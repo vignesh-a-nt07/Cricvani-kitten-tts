@@ -21,6 +21,12 @@ A production-quality standalone TTS Server designed to replace cloud providers (
 ## Installation
 
 ### Local (Python)
+
+python3 -m venv venv
+
+source venv/bin/activate
+
+
 1. Install dependencies:
    ```bash
    pip install -r requirements.txt
