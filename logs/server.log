@@ -85,3 +85,311 @@
 2026-07-28 12:43:30,244 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
 2026-07-28 12:43:30,244 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'Oh no, not again! Ka...'
 2026-07-28 12:43:32,458 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 84 | Time: 2.214s
+2026-07-28 13:03:48,656 - kitten_tts_server - INFO - Loading Kitten TTS model from models/kitten-tts.onnx...
+2026-07-28 13:03:50,036 - kitten_tts_server - INFO - Successfully loaded Kitten TTS model.
+2026-07-28 13:03:50,060 - kitten_tts_server - INFO - Starting CricVani Kitten TTS Server on 0.0.0.0:8001
+2026-07-28 13:03:50,060 - kitten_tts_server - INFO - Initializing TTS Service and loading model...
+2026-07-28 13:03:50,060 - kitten_tts_server - INFO - Startup complete. Ready to serve requests.
+2026-07-28 13:06:00,145 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 13:06:00,149 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'Shaheen Afridi is on...'
+2026-07-28 13:06:07,553 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 299 | Time: 7.409s
+2026-07-28 13:06:07,644 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 13:06:07,644 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'Back comes the bowle...'
+2026-07-28 13:06:14,793 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 281 | Time: 7.149s
+2026-07-28 13:06:30,372 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 13:06:30,372 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'Rohit's stance much ...'
+2026-07-28 13:06:33,297 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 102 | Time: 2.926s
+2026-07-28 13:07:27,314 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 13:07:27,315 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'After Rohit's clever...'
+2026-07-28 13:07:32,376 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 212 | Time: 5.062s
+2026-07-28 13:07:32,393 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 13:07:32,394 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'Rohit's trying to st...'
+2026-07-28 13:07:34,871 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 95 | Time: 2.477s
+2026-07-28 13:07:35,289 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 13:07:35,289 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'Shaheen Afridi's ove...'
+2026-07-28 13:07:37,438 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 88 | Time: 2.149s
+2026-07-28 13:07:37,454 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 13:07:37,455 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'And now the new bowl...'
+2026-07-28 13:07:42,028 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 202 | Time: 4.574s
+2026-07-28 13:07:42,480 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 13:07:42,480 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'Shaheen Afridi to Ro...'
+2026-07-28 13:07:49,779 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 328 | Time: 7.299s
+2026-07-28 13:07:49,799 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 13:07:49,799 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'Back comes the press...'
+2026-07-28 13:07:56,319 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 312 | Time: 6.520s
+2026-07-28 13:08:41,234 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 13:08:41,234 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'Naseem Shah's going ...'
+2026-07-28 13:08:44,911 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 159 | Time: 3.677s
+2026-07-28 13:08:44,953 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 13:08:44,954 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'Rahul's not letting ...'
+2026-07-28 13:08:51,281 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 274 | Time: 6.328s
+2026-07-28 13:09:13,188 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 13:09:13,188 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'Tight line from Nase...'
+2026-07-28 13:09:15,512 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 72 | Time: 2.325s
+2026-07-28 13:09:27,826 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 13:09:27,826 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'After Rahul's played...'
+2026-07-28 13:09:34,957 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 294 | Time: 7.131s
+2026-07-28 13:10:27,632 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 13:10:27,632 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'New man in, Shubman ...'
+2026-07-28 13:10:32,575 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 208 | Time: 4.943s
+2026-07-28 13:10:32,595 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 13:10:32,595 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'He's back with anoth...'
+2026-07-28 13:10:35,151 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 105 | Time: 2.556s
+2026-07-28 13:10:35,921 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 13:10:35,921 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'Kohli's taking the i...'
+2026-07-28 13:10:39,319 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 152 | Time: 3.399s
+2026-07-28 13:10:39,337 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 13:10:39,337 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'Shaheen Afridi's bac...'
+2026-07-28 13:10:43,892 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 184 | Time: 4.555s
+2026-07-28 13:10:43,912 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 13:10:43,913 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'Kohli's had a bit of...'
+2026-07-28 13:10:50,272 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 259 | Time: 6.360s
+2026-07-28 13:11:32,958 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 13:11:32,959 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'Rauf's off to a flye...'
+2026-07-28 13:11:39,326 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 247 | Time: 6.368s
+2026-07-28 13:11:39,350 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 13:11:39,350 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'New man in, Suryakum...'
+2026-07-28 13:11:45,619 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 275 | Time: 6.269s
+2026-07-28 13:11:46,560 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 13:11:46,561 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'And now, Haris Rauf ...'
+2026-07-28 13:11:52,490 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 249 | Time: 5.930s
+2026-07-28 13:11:52,508 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 13:11:52,508 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'Back comes the press...'
+2026-07-28 13:11:58,070 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 252 | Time: 5.562s
+2026-07-28 13:11:58,561 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 13:11:58,561 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'The bowler's still t...'
+2026-07-28 13:12:04,177 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 261 | Time: 5.616s
+2026-07-28 13:12:04,194 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 13:12:04,194 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'Kohli's trying to ge...'
+2026-07-28 13:12:06,256 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 89 | Time: 2.062s
+2026-07-28 13:12:57,035 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 13:12:57,035 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'Naseem Shah comes in...'
+2026-07-28 13:13:02,571 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 205 | Time: 5.536s
+2026-07-28 13:13:02,589 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 13:13:02,589 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'Suryakumar's looking...'
+2026-07-28 13:13:07,861 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 216 | Time: 5.272s
+2026-07-28 13:13:08,288 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 13:13:08,288 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'Back comes Naseem Sh...'
+2026-07-28 13:13:13,067 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 190 | Time: 4.779s
+2026-07-28 13:13:13,096 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 13:13:13,096 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'Naseem Shah's trying...'
+2026-07-28 13:13:16,595 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 141 | Time: 3.499s
+2026-07-28 13:13:17,105 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 13:13:17,105 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'Back comes the bowle...'
+2026-07-28 13:13:22,081 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 183 | Time: 4.976s
+2026-07-28 13:13:22,646 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 13:13:22,646 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'Naseem Shah is tryin...'
+2026-07-28 13:13:28,428 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 246 | Time: 5.782s
+2026-07-28 13:14:21,925 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 13:14:21,925 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'After that gentle pa...'
+2026-07-28 13:14:25,126 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 134 | Time: 3.201s
+2026-07-28 13:14:25,141 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 13:14:25,141 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'He's waiting for tha...'
+2026-07-28 13:14:30,616 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 194 | Time: 5.475s
+2026-07-28 13:14:31,033 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 13:14:31,034 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'New man in, Axar Pat...'
+2026-07-28 13:14:35,606 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 158 | Time: 4.573s
+2026-07-28 13:14:36,054 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 13:14:36,055 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'Axar's off to a grea...'
+2026-07-28 13:14:40,569 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 172 | Time: 4.514s
+2026-07-28 13:14:40,590 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 13:14:40,591 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'Back comes Haris Rau...'
+2026-07-28 13:14:46,418 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 248 | Time: 5.827s
+2026-07-28 13:14:46,434 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 13:14:46,434 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'Kohli gets his feet ...'
+2026-07-28 13:14:51,843 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 232 | Time: 5.409s
+2026-07-28 14:26:08,948 - kitten_tts_server - INFO - Loading Kitten TTS model from models/kitten-tts.onnx...
+2026-07-28 14:26:11,330 - kitten_tts_server - INFO - Successfully loaded Kitten TTS model.
+2026-07-28 14:26:11,376 - kitten_tts_server - INFO - Starting CricVani Kitten TTS Server on 0.0.0.0:8001
+2026-07-28 14:26:11,377 - kitten_tts_server - INFO - Initializing TTS Service and loading model...
+2026-07-28 14:26:11,377 - kitten_tts_server - INFO - Startup complete. Ready to serve requests.
+2026-07-28 14:29:33,466 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 14:29:33,472 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'Nashra Sandhu's line...'
+2026-07-28 14:29:44,673 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 241 | Time: 11.206s
+2026-07-28 14:29:44,958 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 14:29:44,958 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'The Pakistani bowler...'
+2026-07-28 14:29:54,617 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 186 | Time: 9.659s
+2026-07-28 14:29:54,859 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 14:29:54,861 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'Nashra Sandhu's line...'
+2026-07-28 14:30:10,657 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 215 | Time: 15.798s
+2026-07-28 14:30:11,499 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 14:30:11,500 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'And now Chamari Atha...'
+2026-07-28 14:30:18,581 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 152 | Time: 7.069s
+2026-07-28 14:30:18,992 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 14:30:18,993 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'In comes Umm-e-Hani,...'
+2026-07-28 14:30:25,778 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 143 | Time: 6.786s
+2026-07-28 14:30:25,896 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 14:30:25,897 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'Chamari Athapaththu'...'
+2026-07-28 14:30:36,369 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 232 | Time: 10.473s
+2026-07-28 14:30:55,409 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 14:30:55,437 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'Back comes Umm-e-Han...'
+2026-07-28 14:31:14,198 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 336 | Time: 18.768s
+2026-07-28 14:31:18,488 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 14:31:18,561 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'And now, Harshitha S...'
+2026-07-28 14:31:32,515 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 325 | Time: 14.027s
+2026-07-28 14:31:32,636 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 14:31:32,638 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'Back comes Umm-e-Han...'
+2026-07-28 14:31:39,515 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 190 | Time: 6.878s
+2026-07-28 14:31:39,707 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 14:31:39,708 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'Chamari Athapaththu ...'
+2026-07-28 14:31:52,443 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 350 | Time: 12.736s
+2026-07-28 14:31:52,686 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 14:31:52,687 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'And now Chamari Atha...'
+2026-07-28 14:32:00,053 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 210 | Time: 7.367s
+2026-07-28 14:32:30,980 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 14:32:31,077 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'Nashra Sandhu to Har...'
+2026-07-28 14:32:47,047 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 299 | Time: 16.059s
+2026-07-28 14:32:51,305 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 14:32:51,348 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'And now, a sharp pie...'
+2026-07-28 15:27:20,976 - kitten_tts_server - INFO - Loading Kitten TTS model from models/kitten-tts.onnx...
+2026-07-28 15:27:22,293 - kitten_tts_server - INFO - Successfully loaded Kitten TTS model.
+2026-07-28 15:27:22,316 - kitten_tts_server - INFO - Starting CricVani Kitten TTS Server on 0.0.0.0:8001
+2026-07-28 15:27:22,316 - kitten_tts_server - INFO - Initializing TTS Service and loading model...
+2026-07-28 15:27:22,316 - kitten_tts_server - INFO - Startup complete. Ready to serve requests.
+2026-07-28 15:28:57,359 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 15:28:57,360 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'And now Harshitha Sa...'
+2026-07-28 15:29:08,350 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 377 | Time: 10.989s
+2026-07-28 15:29:09,356 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 15:29:09,358 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'A dot ball here, Aye...'
+2026-07-28 15:29:18,523 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 312 | Time: 9.165s
+2026-07-28 15:29:19,500 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 15:29:19,525 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'Back comes the bowle...'
+2026-07-28 15:29:31,107 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 350 | Time: 11.608s
+2026-07-28 15:29:31,216 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 15:29:31,217 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'A dot ball now, and ...'
+2026-07-28 15:29:40,203 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 277 | Time: 8.987s
+2026-07-28 15:29:40,226 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 15:29:40,227 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'Here's the commentar...'
+2026-07-28 15:29:50,193 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 302 | Time: 9.966s
+2026-07-28 15:30:11,107 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 15:30:11,107 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'And now, Syeda Aroob...'
+2026-07-28 15:30:18,500 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 256 | Time: 7.393s
+2026-07-28 15:30:18,520 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 15:30:18,522 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'A good opportunity f...'
+2026-07-28 15:30:25,843 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 221 | Time: 7.323s
+2026-07-28 15:30:25,876 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 15:30:25,876 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'A dot ball for Hasin...'
+2026-07-28 15:30:29,996 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 124 | Time: 4.120s
+2026-07-28 15:30:30,024 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 15:30:30,024 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'Syeda Aroob Shah's l...'
+2026-07-28 15:30:34,143 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 159 | Time: 4.119s
+2026-07-28 15:31:13,293 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 15:31:13,294 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'And now the pressure...'
+2026-07-28 15:31:22,844 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 312 | Time: 9.551s
+2026-07-28 15:31:22,875 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 15:31:22,875 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'The bowler, Ayesha Z...'
+2026-07-28 15:31:28,346 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 203 | Time: 5.471s
+2026-07-28 15:31:28,368 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 15:31:28,369 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'And now, a nice litt...'
+2026-07-28 15:31:36,775 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 288 | Time: 8.407s
+2026-07-28 15:31:36,824 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 15:31:36,827 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'A good dot ball here...'
+2026-07-28 15:31:45,732 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 295 | Time: 8.908s
+2026-07-28 15:31:45,755 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 15:31:45,755 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'After Ayesha Zafar's...'
+2026-07-28 15:31:53,224 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 256 | Time: 7.469s
+2026-07-28 15:31:53,319 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 15:31:53,319 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'Ayesha Zafar's back ...'
+2026-07-28 15:32:01,537 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 299 | Time: 8.218s
+2026-07-28 15:32:30,912 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 15:32:30,913 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'Back comes Ayesha Za...'
+2026-07-28 15:32:41,147 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 362 | Time: 10.235s
+2026-07-28 15:32:41,177 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 15:32:41,177 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'Harshitha Samarawick...'
+2026-07-28 15:32:47,369 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 266 | Time: 6.191s
+2026-07-28 15:32:47,389 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 15:32:47,389 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'After that single fr...'
+2026-07-28 15:32:54,578 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 289 | Time: 7.189s
+2026-07-28 15:33:23,302 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 15:33:23,302 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'Back comes the bowle...'
+2026-07-28 15:33:30,675 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 270 | Time: 7.373s
+2026-07-28 15:34:23,239 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 15:34:23,239 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'Syeda Aroob Shah's o...'
+2026-07-28 15:34:29,822 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 280 | Time: 6.584s
+2026-07-28 15:34:47,988 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 15:34:47,988 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'Harshitha Samarawick...'
+2026-07-28 15:34:52,836 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 189 | Time: 4.847s
+2026-07-28 15:35:47,804 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 15:35:47,804 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'Syeda Aroob Shah bri...'
+2026-07-28 15:35:58,465 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 403 | Time: 10.660s
+2026-07-28 15:36:59,993 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 15:36:59,994 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'Syeda Aroob Shah has...'
+2026-07-28 15:37:07,079 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 305 | Time: 7.085s
+2026-07-28 15:37:07,097 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 15:37:07,097 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'Harshitha Samarawick...'
+2026-07-28 15:37:11,991 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 197 | Time: 4.894s
+2026-07-28 15:37:12,009 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 15:37:12,009 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'And now Ayesha Zafar...'
+2026-07-28 15:37:21,596 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 337 | Time: 9.587s
+2026-07-28 15:37:21,633 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 15:37:21,636 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'She's defended solid...'
+2026-07-28 15:37:25,525 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 146 | Time: 3.892s
+2026-07-28 15:38:02,609 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 15:38:02,609 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'After that textbook ...'
+2026-07-28 15:38:10,201 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 280 | Time: 7.592s
+2026-07-28 15:38:10,225 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 15:38:10,225 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'Back comes the bowle...'
+2026-07-28 15:38:19,727 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 339 | Time: 9.502s
+2026-07-28 15:43:27,989 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 15:43:27,989 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'After that boundary,...'
+2026-07-28 15:43:33,149 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 227 | Time: 5.160s
+2026-07-28 15:43:33,169 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 15:43:33,170 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'Harshitha Samarawick...'
+2026-07-28 15:43:36,099 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 104 | Time: 2.930s
+2026-07-28 15:44:03,521 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 15:44:03,522 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'Fatima Sana is back ...'
+2026-07-28 15:44:12,126 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 272 | Time: 8.605s
+2026-07-28 15:45:00,358 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 15:45:00,358 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'After Fatima Sana te...'
+2026-07-28 15:45:06,028 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 218 | Time: 5.670s
+2026-07-28 15:45:06,046 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 15:45:06,046 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'Perera's solid defen...'
+2026-07-28 15:45:10,187 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 175 | Time: 4.140s
+2026-07-28 15:45:10,203 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 15:45:10,203 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'In comes Fatima Sana...'
+2026-07-28 15:45:13,725 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 129 | Time: 3.522s
+2026-07-28 15:45:13,744 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 15:45:13,745 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'Fatima Sana continue...'
+2026-07-28 15:45:20,157 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 201 | Time: 6.413s
+2026-07-28 15:45:28,515 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 15:45:28,515 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'A dot ball, and Hasi...'
+2026-07-28 15:45:35,733 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 280 | Time: 7.218s
+2026-07-28 15:45:35,755 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 15:45:35,755 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'Back comes Ayesha Za...'
+2026-07-28 15:45:42,802 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 265 | Time: 7.047s
+2026-07-28 15:47:29,146 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 15:47:29,146 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'Back comes Ayesha Za...'
+2026-07-28 15:47:39,574 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 377 | Time: 10.429s
+2026-07-28 15:47:39,619 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 15:47:39,620 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'A good length delive...'
+2026-07-28 15:47:47,699 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 321 | Time: 8.080s
+2026-07-28 15:47:47,719 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 15:47:47,719 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'The pressure's build...'
+2026-07-28 15:47:53,950 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 239 | Time: 6.231s
+2026-07-28 15:49:27,926 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 15:49:27,926 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'After that cautious ...'
+2026-07-28 15:49:38,349 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 373 | Time: 10.423s
+2026-07-28 15:49:38,412 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 15:49:38,413 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'Back comes the bowle...'
+2026-07-28 15:49:45,244 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 275 | Time: 6.831s
+2026-07-28 15:49:45,263 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 15:49:45,264 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'Fatima Sana tries to...'
+2026-07-28 15:49:51,720 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 247 | Time: 6.456s
+2026-07-28 15:49:51,736 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 15:49:51,736 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'After that controlle...'
+2026-07-28 15:49:58,719 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 309 | Time: 6.983s
+2026-07-28 15:51:40,848 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 15:51:40,848 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'And now the batsmen ...'
+2026-07-28 15:51:50,916 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 420 | Time: 10.068s
+2026-07-28 15:51:50,935 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 15:51:50,935 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'The pressure is buil...'
+2026-07-28 15:51:58,250 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 293 | Time: 7.315s
+2026-07-28 15:51:58,268 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 15:51:58,268 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'Back comes the bowle...'
+2026-07-28 15:52:03,900 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 237 | Time: 5.632s
+2026-07-28 16:13:00,341 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 16:13:00,342 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'And the star of the ...'
+2026-07-28 16:13:10,985 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 414 | Time: 10.643s
+2026-07-28 16:13:10,987 - kitten_tts_server - INFO - Voice Mapping | Requested: male_1 | Mapped: expr-voice-2-m | Final: expr-voice-2-m
+2026-07-28 16:13:10,987 - kitten_tts_server - INFO - Generating TTS | Voice: expr-voice-2-m | Speed: 1.0 | Text: 'Back comes the bowle...'
+2026-07-28 16:13:19,964 - kitten_tts_server - INFO - TTS Success | IP: 127.0.0.1 | Voice: male_1 | Chars: 389 | Time: 8.977s
