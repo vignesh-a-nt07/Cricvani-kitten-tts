@@ -1,13 +1,13 @@
 # =========================
 # Python
 # =========================
+
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Virtual Environment
+# Virtual Environments
 venv/
-.env/
 .venv/
 ENV/
 env/
@@ -15,23 +15,26 @@ env/
 # =========================
 # Environment Variables
 # =========================
+
 .env
 .env.local
 .env.development
 .env.production
 
-# Keep template
+# Keep templates
 !.env.example
 
 # =========================
 # Logs
 # =========================
+
 logs/
 *.log
 
 # =========================
 # Generated Audio
 # =========================
+
 generated/
 *.wav
 *.mp3
@@ -40,6 +43,7 @@ generated/
 # =========================
 # Model Cache
 # =========================
+
 .cache/
 .huggingface/
 hf_cache/
@@ -47,26 +51,59 @@ hf_cache/
 # =========================
 # Python Build
 # =========================
+
 build/
 dist/
 *.egg-info/
 .eggs/
 
 # =========================
+# Terraform
+# =========================
+
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+crash.*.log
+
+# =========================
+# Ansible
+# =========================
+
+*.retry
+
+# Real Ansible inventory
+ansible/inventory/hosts.ini
+
+# =========================
+# SSH / Private Keys
+# =========================
+
+*.pem
+*.key
+*.p12
+*.pfx
+
+# =========================
 # IDE
 # =========================
+
 .vscode/
 .idea/
 
 # =========================
 # OS
 # =========================
+
 .DS_Store
 Thumbs.db
 
 # =========================
 # Testing
 # =========================
+
 .pytest_cache/
 .coverage
 htmlcov/
@@ -75,10 +112,12 @@ htmlcov/
 # =========================
 # Jupyter
 # =========================
+
 .ipynb_checkpoints/
 
 # =========================
 # Misc
 # =========================
+
 *.sqlite3
 *.db
