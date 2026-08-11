@@ -31,20 +31,33 @@ jobs:
 
             mkdir -p logs
 
+            echo "Creating Python virtual environment..."
             python3 -m venv venv
 
+            echo "Installing dependencies..."
             ./venv/bin/pip install --upgrade pip
             ./venv/bin/pip install -r requirements.txt
 
-            pkill -f '[u]vicorn app:app' || true
-            sleep 2
+            echo "Stopping previous Kitten TTS server..."
+
+            if [ -f kitten.pid ]; then
+              kill "$(cat kitten.pid)" 2>/dev/null || true
+              rm -f kitten.pid
+              sleep 2
+            fi
+
+            echo "Starting Kitten TTS server..."
 
             nohup ./venv/bin/python -m uvicorn app:app \
               --host 0.0.0.0 \
               --port 8001 \
               > logs/server.log 2>&1 &
 
-            sleep 3
+            echo $! > kitten.pid
+
+            echo "Kitten TTS process started with PID $(cat kitten.pid)"
+
+            sleep 10
 
             echo "Checking Kitten TTS server..."
 
