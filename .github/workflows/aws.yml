@@ -31,16 +31,25 @@ jobs:
           script: |
             cd /home/ubuntu/cricvani-kitten-tts
 
+            mkdir -p logs
+
             python3 -m venv venv
 
             ./venv/bin/pip install --upgrade pip
             ./venv/bin/pip install -r requirements.txt
 
             pkill -f "uvicorn app:app" || true
+            sleep 2
 
             nohup ./venv/bin/python -m uvicorn app:app \
               --host 0.0.0.0 \
               --port 8001 \
               > logs/server.log 2>&1 &
 
-            echo "Kitten TTS started"
+            sleep 3
+
+            echo "Checking Kitten TTS server..."
+
+            curl -f http://localhost:8001/health
+
+            echo "Kitten TTS deployed successfully!"
