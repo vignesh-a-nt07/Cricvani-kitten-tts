@@ -1,15 +1,5 @@
-# terraform.tfvars.example
-# Copy this file to terraform.tfvars and modify appropriately
-
 aws_region        = "us-east-1"
 instance_type     = "t3.small"
 root_volume_size  = 20
-
-# Existing AWS Key Pair for SSH access
-key_pair_name     = "your-key-pair-name"
-
-# Restrict these to your own public IP for staging (e.g. "203.0.113.1/32")
-ssh_allowed_cidr  = "YOUR_PUBLIC_IP/32"
-app_allowed_cidr  = "YOUR_PUBLIC_IP/32"
-
-use_elastic_ip    = true
+key_pair_name     = "kitten-tts"
+allowed_cidr      = "YOUR_PUBLIC_IP/32"

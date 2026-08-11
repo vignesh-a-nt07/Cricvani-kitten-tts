@@ -1,0 +1,69 @@
+name: Server Status
+
+on:
+  workflow_dispatch:
+    inputs:
+      ec2_host:
+        description: 'Public IP or DNS of the existing Kitten TTS EC2 instance'
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  status:
+    runs-on: ubuntu-latest
+    env:
+      EC2_USERNAME: ${{ vars.EC2_USERNAME || 'ubuntu' }}
+      APP_PORT: ${{ vars.APP_PORT || '8001' }}
+      SYSTEMD_SERVICE: ${{ vars.SYSTEMD_SERVICE || 'cricvani-kitten-tts' }}
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup SSH
+        run: |
+          set -e
+          mkdir -p ~/.ssh
+          echo "${{ secrets.EC2_SSH_KEY }}" > ~/.ssh/kitten-tts.pem
+          chmod 600 ~/.ssh/kitten-tts.pem
+          
+          cat <<EOF > ~/.ssh/config
+          Host staging-ec2
+            HostName ${{ github.event.inputs.ec2_host }}
+            User ${{ env.EC2_USERNAME }}
+            IdentityFile ~/.ssh/kitten-tts.pem
+            StrictHostKeyChecking no
+            UserKnownHostsFile /dev/null
+          EOF
+          chmod 600 ~/.ssh/config
+
+      - name: Check Server Status
+        run: |
+          set -e
+          echo "=== systemd Status ==="
+          if ssh staging-ec2 "sudo systemctl is-active --quiet ${{ env.SYSTEMD_SERVICE }}"; then
+            echo "Service running"
+            ssh staging-ec2 "sudo systemctl status ${{ env.SYSTEMD_SERVICE }} --no-pager" || true
+          else
+            echo "Service is NOT running!"
+            ssh staging-ec2 "sudo journalctl -u ${{ env.SYSTEMD_SERVICE }} -n 100 --no-pager" || true
+          fi
+
+          echo "=== Health Endpoint ==="
+          ssh staging-ec2 "curl -s http://127.0.0.1:${{ env.APP_PORT }}/health | jq || curl -s http://127.0.0.1:${{ env.APP_PORT }}/health" || echo "Health endpoint unreachable"
+
+          echo "=== Memory ==="
+          ssh staging-ec2 "free -h" || true
+
+          echo "=== Disk ==="
+          ssh staging-ec2 "df -h" || true
+
+          echo "=== Port ==="
+          ssh staging-ec2 "ss -lntp | grep ${{ env.APP_PORT }}" || true
+          
+      - name: Cleanup Temporary SSH Key
+        if: always()
+        run: rm -f ~/.ssh/kitten-tts.pem ~/.ssh/config

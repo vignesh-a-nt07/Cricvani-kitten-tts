@@ -1,8 +1,0 @@
----
-app_name: cricvani-kitten-tts
-app_user: kittentts
-app_group: kittentts
-app_dir: /opt/cricvani-kitten-tts
-app_port: 8001
-venv_dir: "{{ app_dir }}/venv"
-local_app_dir: "../.."
