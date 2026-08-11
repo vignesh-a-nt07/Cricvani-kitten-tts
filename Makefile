@@ -12,11 +12,3 @@ run:
 # Run with auto-reload (development)
 dev:
 	python -m uvicorn app:app --host 0.0.0.0 --port 8001 --reload
-
-# Build Docker image
-docker-build:
-	docker build -t cricvani-kitten-tts .
-
-# Run Docker container
-docker-run:
-	docker run --rm -p 8001:8001 --env-file .env cricvani-kitten-tts
