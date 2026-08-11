@@ -1,0 +1,13 @@
+---
+- name: reload systemd
+  systemd:
+    daemon_reload: yes
+
+- name: restart application
+  systemd:
+    name: "{{ app_name }}"
+    state: restarted
+  # We do not want Ansible to automatically restart/start the app initially
+  # as requested by the user, but keeping the handler in case it's manually triggered later.
+  # We ignore errors in case the service is not yet enabled/running.
+  ignore_errors: yes

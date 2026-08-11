@@ -1,0 +1,108 @@
+name: Deploy Kitten TTS Staging
+
+on:
+  workflow_dispatch:
+    inputs:
+      ssh_allowed_cidr:
+        description: 'CIDR block allowed for SSH access (e.g. 203.0.113.1/32)'
+        required: true
+        type: string
+      app_allowed_cidr:
+        description: 'CIDR block allowed for App access on port 8001'
+        required: true
+        type: string
+      key_pair_name:
+        description: 'Name of the existing AWS key pair for EC2'
+        required: true
+        type: string
+
+env:
+  TF_VAR_ssh_allowed_cidr: ${{ github.event.inputs.ssh_allowed_cidr }}
+  TF_VAR_app_allowed_cidr: ${{ github.event.inputs.app_allowed_cidr }}
+  TF_VAR_key_pair_name: ${{ github.event.inputs.key_pair_name }}
+  AWS_REGION: "us-east-1" # Update if needed or extract to variables
+  TF_VAR_aws_region: "us-east-1"
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ env.AWS_REGION }}
+
+      - name: Setup Terraform
+        uses: hashicorp/setup-terraform@v3
+        with:
+          terraform_version: "1.5.0"
+          terraform_wrapper: false # Allows capturing raw output into variables
+
+      - name: Terraform Init
+        working-directory: ./terraform
+        run: terraform init
+
+      - name: Terraform Apply
+        working-directory: ./terraform
+        run: terraform apply -auto-approve
+
+      - name: Get EC2 Public IP
+        id: tf_outputs
+        working-directory: ./terraform
+        run: |
+          PUBLIC_IP=$(terraform output -raw public_ip)
+          echo "public_ip=$PUBLIC_IP" >> $GITHUB_OUTPUT
+          echo "Extracted Public IP: $PUBLIC_IP"
+
+      - name: Setup SSH Key
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.EC2_SSH_PRIVATE_KEY }}" > ~/.ssh/kitten-tts.pem
+          chmod 600 ~/.ssh/kitten-tts.pem
+
+      - name: Setup Ansible
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ansible
+
+      - name: Generate Dynamic Inventory
+        working-directory: ./ansible
+        run: |
+          mkdir -p inventory
+          cat <<EOF > inventory/hosts.ini
+          [kitten_tts]
+          ${{ steps.tf_outputs.outputs.public_ip }} ansible_user=ubuntu ansible_ssh_private_key_file=~/.ssh/kitten-tts.pem
+          EOF
+          cat inventory/hosts.ini
+
+      - name: Run Ansible Playbook
+        working-directory: ./ansible
+        env:
+          ANSIBLE_HOST_KEY_CHECKING: "False"
+        run: |
+          ansible-playbook -i inventory/hosts.ini playbook.yml
+          
+      - name: Deployment Summary
+        run: |
+          echo "### 🚀 Deployment Successful!" >> $GITHUB_STEP_SUMMARY
+          echo "**Kitten TTS EC2 Public IP**: \`${{ steps.tf_outputs.outputs.public_ip }}\`" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "#### Next Steps:" >> $GITHUB_STEP_SUMMARY
+          echo "1. SSH into the server:" >> $GITHUB_STEP_SUMMARY
+          echo "\`\`\`bash" >> $GITHUB_STEP_SUMMARY
+          echo "ssh -i <your-key.pem> ubuntu@${{ steps.tf_outputs.outputs.public_ip }}" >> $GITHUB_STEP_SUMMARY
+          echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+          echo "2. Start the application manually:" >> $GITHUB_STEP_SUMMARY
+          echo "\`\`\`bash" >> $GITHUB_STEP_SUMMARY
+          echo "cd /opt/cricvani-kitten-tts" >> $GITHUB_STEP_SUMMARY
+          echo "source venv/bin/activate" >> $GITHUB_STEP_SUMMARY
+          echo "make run" >> $GITHUB_STEP_SUMMARY
+          echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+          echo "3. Update your local CricVani config:" >> $GITHUB_STEP_SUMMARY
+          echo "\`http://${{ steps.tf_outputs.outputs.public_ip }}:8001\`" >> $GITHUB_STEP_SUMMARY

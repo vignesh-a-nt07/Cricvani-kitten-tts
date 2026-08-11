@@ -1,0 +1,6 @@
+---
+- name: Configure Kitten TTS Server
+  hosts: kitten_tts
+  become: yes
+  roles:
+    - kitten_tts
